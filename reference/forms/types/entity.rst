@@ -59,7 +59,7 @@ be listed inside the choice field::
     ));
 
 In this case, all ``User`` objects will be loaded from the database and
-rendered as either a ``select`` tag, a set or radio buttons or a series
+rendered as either a ``select`` tag, a set of radio buttons or a series
 of checkboxes (this depends on the ``multiple`` and ``expanded`` values).
 If the entity object does not have a ``__toString()`` method the ``property``
 option is needed.
